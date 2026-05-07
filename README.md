@@ -1,22 +1,42 @@
-# Dissapearing-Text-Writing-App
-A simple desktop application inspired by "The Most dangerous Writing App". If you stop typing the text will disappear.
+# 📝 Disappearing Text Writing App
 
-<p style="text-align:center;">App Main Screen.</p>
+A minimalist, high-stakes writing environment inspired by "The Most Dangerous Writing App."
 
-![app-main](https://i.postimg.cc/Nf7bSR16/Disappearing-Text-1.png)
-<br>
+## 🚀 The Challenge
+Stay focused. Keep typing. If you stop for more than **10 seconds**, your current progress will be wiped clean (though it is automatically saved to `doc.txt` before it disappears, just in case you were actually getting somewhere!).
 
-<p style="text-align:center;">Green Text</p>
+### 🌈 Visual Feedback
+The text color changes as the timer runs down to keep you in the flow:
+- **Green**: 10 - 7 seconds remaining.
+- **Blue**: 6 - 4 seconds remaining.
+- **Red**: 3 - 1 seconds remaining.
 
-![green-text](https://i.postimg.cc/Z5bjS0c1/Disappearing-Text-2.png)
-<br>
+## 🛠️ Installation
 
-<p style="text-align:center;">Blue Text</p
-  
-![blue-text](https://i.postimg.cc/R0qRW82d/Disappearing-Text-3.png)
-<br>
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/sthomasmcclane/Disappearing-Text-Writing-App.git
+   cd Disappearing-Text-Writing-App
+   ```
 
-<p style="text-align:center;">Red Text</p
-  
-![red-text](https://i.postimg.cc/FHTpsmC1/Disappearing-Text-4.png)
-<br>
+2. **Install dependencies**:
+   ```bash
+   pip install customtkinter
+   ```
+
+3. **Run the app**:
+   ```bash
+   python3 main.py
+   ```
+
+## 📸 Screenshots
+
+| Phase | Preview |
+| :--- | :--- |
+| **Main Screen** | ![app-main](https://i.postimg.cc/Nf7bSR16/Disappearing-Text-1.png) |
+| **Warning (Green)** | ![green-text](https://i.postimg.cc/Z5bjS0c1/Disappearing-Text-2.png) |
+| **Caution (Blue)** | ![blue-text](https://i.postimg.cc/R0qRW82d/Disappearing-Text-3.png) |
+| **Danger (Red)** | ![red-text](https://i.postimg.cc/FHTpsmC1/Disappearing-Text-4.png) |
+
+## 📜 License
+This project is open-source and available under the MIT License.
