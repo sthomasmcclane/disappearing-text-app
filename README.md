@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> This project has been consolidated into **[Writer's EDC](https://github.com/sthomasmcclane/writers-edc)**. This repository is now legacy and has been **Archived**. The code remains available for reference, but no further updates will be made here.
+
 # 📝 Disappearing Text Writing App
 
 A minimalist, high-stakes writing environment inspired by "The Most Dangerous Writing App."
